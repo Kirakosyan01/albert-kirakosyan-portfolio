@@ -5,16 +5,18 @@ import { cn } from "../lib/utils.js";
 export default function ThemeToggle() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
-        setIsDarkMode(true);
-        document.documentElement.classList.add("dark");
-    } else {
-        localStorage.setItem("theme", "light");
-        setIsDarkMode(false);
-    }
-  }, [])
+useEffect(() => {
+  const storedTheme = localStorage.getItem("theme");
+
+  if (storedTheme === "dark" || storedTheme === null) {
+    setIsDarkMode(true);
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+  } else {
+    setIsDarkMode(false);
+    document.documentElement.classList.remove("dark");
+  }
+}, []);
 
   const toggleTheme = () => {
     if (isDarkMode) {
