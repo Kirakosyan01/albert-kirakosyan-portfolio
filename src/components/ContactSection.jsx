@@ -48,7 +48,7 @@ export default function ContactSection() {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Some text Some text Some text Some text Some text Some text Some text.
+          Let’s talk! Reach me anytime through the form or email below.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
