@@ -10,18 +10,18 @@ export default function AboutMe() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 h-full">
-            <h3 className="text-2xl font-bold">Software Developer</h3>
+            <h3 className="text-2xl font-bold">Clinical SAS Programmer</h3>
             <p className="text-muted-foreground">
               {" "}
-              I'm a frontend developer with a strong interest in fullstack
-              development. I enjoy building responsive, user-friendly websites
-              with clean design.
+              I'm a Clinical SAS Programmer with a background in programming and
+              data analysis. I focus on transforming complex clinical data into
+              clear, actionable insights through efficient and reliable code.
             </p>
             <p className="text-muted-foreground">
               {" "}
-              I'm constantly learning new technologies and improving my skills
-              to become a better developer and create meaningful digital
-              experiences.
+              I'm continually advancing my technical and analytical skills to
+              contribute to high-quality clinical research and data-driven
+              decision-making.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -46,11 +46,12 @@ export default function AboutMe() {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Frontend Development
+                    Clinical SAS Programming
                   </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Developing and validating clinical datasets and reports
+                    using SAS to ensure data quality, compliance, and accuracy
+                    in clinical research.
                   </p>
                 </div>
               </div>

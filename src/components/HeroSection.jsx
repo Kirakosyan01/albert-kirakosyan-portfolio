@@ -20,8 +20,9 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Frontend developer exploring fullstack development. Focused on
-            building modern, user-friendly websites.
+            Clinical SAS Programmer with a background in software development.
+            Focused on creating efficient, reliable, and compliant clinical data
+            solutions that support accurate research and analysis.
           </p>
 
           <div className="opacity-0 animate-fade-in-delay-4">
@@ -34,7 +35,7 @@ export default function HeroSection() {
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2">Scroll</span>
-        <ArrowDown className="h-5 w-5 text-primary"/>
+        <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
   );
