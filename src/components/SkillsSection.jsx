@@ -3,20 +3,20 @@ import { cn } from "../lib/utils.js";
 
 const skills = [
 
-  //Clinical
-  { name: "Base SAS", level: 100, category: "clinical" },
-  { name: "SAS Macros", level: 100, category: "clinical" },
-  { name: "SDTM", level: 100, category: "clinical" },
-  { name: "ADaM", level: 100, category: "clinical" },
-  { name: "TFLs (Tables, Figures, Listings)", level: 100, category: "clinical" },
-  { name: "CDISC Compliance", level: 100, category: "clinical" },
+  //Main
+  { name: "SAS (BASE/ADVANCE)", level: 100, category: "Main" },
+  { name: "SAS Macros", level: 100, category: "Main" },
+  { name: "SDTM", level: 100, category: "Main" },
+  { name: "ADaM", level: 100, category: "Main" },
+  { name: "TFLs (Tables, Figures, Listings)", level: 100, category: "Main" },
+  { name: "CDISC Compliance", level: 100, category: "Main" },
 
   //Frontend
-  { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "SCSS/SASS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
+  // { name: "HTML/CSS", level: 90, category: "frontend" },
+  // { name: "SCSS/SASS", level: 90, category: "frontend" },
+  // { name: "JavaScript", level: 90, category: "frontend" },
+  // { name: "React", level: 90, category: "frontend" },
+  // { name: "TypeScript", level: 85, category: "frontend" },
 
   //Tools
   { name: "SQL", level: 90, category: "tools" },
@@ -26,7 +26,7 @@ const skills = [
   { name: "Excel", level: 70, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "clinical", "tools"];
+const categories = ["all", "Main", "tools"];
 
 export default function SkillsSection() {
   const [activeCategory, setActiveCategory] = useState("all");
