@@ -29,7 +29,7 @@ export default function AboutMe() {
                 Get In Touch
               </a>
               <a
-                href="/AlbertKirakosyan_FrontEnd_Resume.pdf"
+                href="/Albert_Kirakosyan_CV.pdf"
                 download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
